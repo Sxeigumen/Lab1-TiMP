@@ -18,3 +18,29 @@ tree boost_1_69_0 -L 1
 ```
 tree
 ```
+
+**Задание №5**
+```
+find -name "*.cpp" | wc -l
+find -name "*.hpp" | wc -l
+find -name "*.h" | wc -l
+find . -not \( -name "*.h" -o -name "*.hpp" -o -name "*.cpp" \) | wc -l
+```
+
+**Задание №6**
+```
+find -name "any.hpp"
+```
+
+
+**Задание №7**
+```
+
+```
+
+
+**Задание №8**
+```
+./bootstrap.sh --prefix=boost_output
+./b2 install
+```
