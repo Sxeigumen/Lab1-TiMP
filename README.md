@@ -44,3 +44,18 @@ find -name "any.hpp"
 ./bootstrap.sh --prefix=boost_output
 ./b2 install
 ```
+
+**Задание №9**
+```
+
+```
+
+**Задание №10**
+```
+
+```
+
+**Задание №11**
+```
+
+```
