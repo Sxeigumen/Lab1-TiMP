@@ -47,15 +47,17 @@ find -name "any.hpp"
 
 **Задание №9**
 ```
+mkdir ~/boost-libs
+mv * ~/boost-libs
 
 ```
 
 **Задание №10**
 ```
-
+ ls -hl
 ```
 
 **Задание №11**
 ```
-
+ find . -type f -exec du -h {} +|sort -rh | head -n 10
 ```
