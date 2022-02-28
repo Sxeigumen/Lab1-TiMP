@@ -35,7 +35,7 @@ find -name "any.hpp"
 
 **Задание №7**
 ```
-
+grep -lr boost::asio
 ```
 
 
@@ -49,7 +49,6 @@ find -name "any.hpp"
 ```
 mkdir ~/boost-libs
 mv * ~/boost-libs
-
 ```
 
 **Задание №10**
